@@ -1,0 +1,7 @@
+{
+  "listen_addr": ":8080",
+  "db_path": "data/linux-stalk.db",
+  "api_keys": [
+    "replace-with-client-key"
+  ]
+}

@@ -1,0 +1,8 @@
+/linux-stalk
+/linux-stalk-client
+/linux-stalk-server
+atspi-all.txt
+atspi-relevant.txt
+configs/client.json
+configs/server.json
+data/

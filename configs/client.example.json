@@ -1,0 +1,8 @@
+{
+  "server_url": "https://your-server.example.com",
+  "api_key": "replace-with-client-key",
+  "device_id": "desktop-arch-01",
+  "min_send_interval": "5s",
+  "max_events_per_minute": 10,
+  "request_timeout": "10s"
+}
