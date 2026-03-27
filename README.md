@@ -12,7 +12,7 @@
 ## 目前支持
 
 - 枚举 accessibility 树中的应用
-- 获取焦点相关 AT-SPI 事件
+- 获取焦点相关 AT-SPI 事件 （Gnome 可用，KDE 暂不支持）
 - 过滤窗口切换和有效焦点事件
 - 采集系统状态
   - 电源
@@ -67,13 +67,3 @@ go run ./cmd/linux-stalk-client --push --config configs/client.json
 ```bash
 go run ./cmd/linux-stalk-server --config configs/server.json
 ```
-
-## 说明
-
-这是当前阶段的 MVP，实现重点是“先采到、先传到、先存下来”。
-后续可以继续补：
-
-- 更稳定的 KDE 触发器兜底
-- 更细的媒体去重
-- 查询分页、时间范围过滤
-- Web UI / 设备看板
